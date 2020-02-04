@@ -65,3 +65,17 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (landkmarks
     ```
 
     >*images will be saved in the same directory as the given image*
+
+## Results
+
+### Single face
+
+Input            |  Landmarks detected            |  Jawline detected
+:-------------------------:|:-------------------------:|:-------------------------:
+![](face.jpg)  |  ![](detected_face.jpg)  |  ![](jawline_detected_face.jpg)
+
+### Multiple faces
+
+Input            |  Landmarks detected            |  Jawline detected
+:-------------------------:|:-------------------------:|:-------------------------:
+![](multiple_faces.png)  |  ![](detected_multiple_faces.png)  |  ![](jawline_detected_multiple_faces.png)
