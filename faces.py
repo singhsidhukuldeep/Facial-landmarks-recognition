@@ -80,6 +80,9 @@ def detectFaces (image_loaction = "", model_location = ""):
 	    # array
 	    shape = predictor(gray, rect)
 	    shape = face_utils.shape_to_np(shape)
+	    #points = np.array(shape [:17])
+	    #print(points)
+	    #cv2.polylines(img=image, pts=np.int32([points]), thickness = 1, color=(0,0,0), lineType = 1, shift = 0, isClosed=False)
 
 	    # loop over the (x, y)-coordinates for the facial landmarks
 	    # and draw them on the image for jawline i.e 0-16 points
