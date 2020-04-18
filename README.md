@@ -9,7 +9,7 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (land marks
 
 * **`Linux`** Systems:
 
-    ```
+    ```shell
     sudo pip3 install virtualenv
 
     virtualenv -p python3 venv --no-site-packages
@@ -19,13 +19,13 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (land marks
     pip3 install -r requirements.txt
     ```
 
-    ```
+    ```shell
     deactivate
     ```
 
 * **`Windows`** Systems:
 
-    ```
+    ```shell
     pip3 install virtualenv
 
     virtualenv -p python3 venv --no-site-packages
@@ -35,7 +35,7 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (land marks
     pip3 install -r requirements.txt
     ```
 
-    ```
+    ```shell
     venv\Scripts\deactivate
     ```
 
