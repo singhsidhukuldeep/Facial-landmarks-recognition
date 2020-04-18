@@ -45,7 +45,7 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (land marks
 
 * Using from command line
 
-    ```
+    ```shell
     python3 faces.py ./face.jpg ./model/shape_predictor_68_face_landmarks.dat
     ```
 
