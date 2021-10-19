@@ -3,6 +3,21 @@ Identifying faces in photos or videos is very cool, but this isn’t enough info
 
 Here we are using  `Dlib`, a library capable of giving you 68 points (land marks) of the face.
 
+## Results
+
+### Single face
+
+Input            |  Landmarks detected            |  Jawline detected
+:-------------------------:|:-------------------------:|:-------------------------:
+![](face.jpg)  |  ![](detected_face.jpg)  |  ![](jawline_detected_face.jpg)
+
+### Multiple faces
+
+Input            |  Landmarks detected            |  Jawline detected
+:-------------------------:|:-------------------------:|:-------------------------:
+![](multiple_faces.png)  |  ![](detected_multiple_faces.png)  |  ![](jawline_detected_multiple_faces.png)
+
+
 ## Setup
 
 **Important:** *To install the required libraries you will need [CMake](https://cmake.org/)*
@@ -65,20 +80,6 @@ Here we are using  `Dlib`, a library capable of giving you 68 points (land marks
     ```
 
     >*images will be saved in the same directory as the given image*
-
-## Results
-
-### Single face
-
-Input            |  Landmarks detected            |  Jawline detected
-:-------------------------:|:-------------------------:|:-------------------------:
-![](face.jpg)  |  ![](detected_face.jpg)  |  ![](jawline_detected_face.jpg)
-
-### Multiple faces
-
-Input            |  Landmarks detected            |  Jawline detected
-:-------------------------:|:-------------------------:|:-------------------------:
-![](multiple_faces.png)  |  ![](detected_multiple_faces.png)  |  ![](jawline_detected_multiple_faces.png)
 
 ## CREDITS
 
